@@ -11,5 +11,6 @@
     - [Some other topic in here](#bitwise-operations)
 - [Managing Cloud Networks via VPCs (Virtual Private Cloud)](#trees)
 
+### Topics of Study
 ### Accesing and Using AWS Services
 - [ ] About Arrays:
