@@ -11,5 +11,5 @@
     - [Some other topic in here](#bitwise-operations)
 - [Managing Cloud Networks via VPCs (Virtual Private Cloud)](#trees)
 
-- ### Accesing and Using AWS Services
+### Accesing and Using AWS Services
 - [ ] About Arrays:
