@@ -12,4 +12,12 @@
 - [Managing Cloud Networks via VPCs (Virtual Private Cloud)](#trees)
 
 ### Accesing and Using AWS Services
-- [ ] About Arrays:
+- Nothing to implement here, we just have to sign in into the AWS Services
+
+- ### Different Ways of Accessing AWS
+    - [ ] Management Console
+        - Easy to access & navigate
+        - Perfect for exploring services & features
+
+    - [ ] AWS CLI
+        - Command-driven access (install CLI from AWS CLI website)
