@@ -16,8 +16,25 @@
 
 - ### Different Ways of Accessing AWS
     - [ ] Management Console
-        - Easy to access & navigate
+        - Easy to access & navigate (Graphical user interface)
         - Perfect for exploring services & features
+        - Complex, repeatd or large-scale setups can become cumbersome
+        - Perfect tool for getting started on AWS
 
     - [ ] AWS CLI
-        - Command-driven access (install CLI from AWS CLI website)
+        - Command-driven access (It gives us command-drive acces to AWS instead a Graphical user Interace, install CLI from AWS CLI website)
+        - Perfect for well-known complex, repeatd or large-scale setups and tasks
+        - Prior installation and configuration needed
+        - Can simpify complex, repeated or large-scale setups
+       
+    - [ ] SDKs
+        - Programmatic access
+        - Infrastructure as code
+        - Perfect for automating tasks
+        - Can simplify setups and allows for building (automated) tools
+        
+- Behind the scenes the three ways described before send commands, API HTTP requests.
+- AWS in the end exposes an API (a server) and we can send requests to the AWS API to make AWS do something
+        
+        
+        
