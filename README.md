@@ -27,11 +27,16 @@
         - Prior installation and configuration needed
         - Can simpify complex, repeated or large-scale setups
        
-    - [ ] SDKs
+    - [ ] SDKs (Available in many programming lenguages)
         - Programmatic access
         - Infrastructure as code
         - Perfect for automating tasks
         - Can simplify setups and allows for building (automated) tools
+        
+    - [ ] API Calls
+        - Use services via HTTP requests
+        - Request configuration can be challenging
+        - Typically, you'd go for one fo he other solutions
         
 - Behind the scenes the three ways described before send commands, API HTTP requests.
 - AWS in the end exposes an API (a server) and we can send requests to the AWS API to make AWS do something
