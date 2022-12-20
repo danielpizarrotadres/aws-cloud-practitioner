@@ -50,9 +50,11 @@
         - Which resources and factores are charged depends on the actual services used
         
     - [ ] In Advance
-        - Some description here
+        - Pay for reserved capaciy or min. usage
+        - Discounted price
+        - Only offered for some services or service features
         
     - [ ] Subscription
-        - Some description here
+        - Pay a flat monthly / yearly fee
         
         
