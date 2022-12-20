@@ -38,8 +38,21 @@
         - Request configuration can be challenging
         - Typically, we'd go for one other solutions
         
-- Behind the scenes the three ways described before send commands, API HTTP requests.
-- AWS in the end exposes an API (a server) and we can send requests to the AWS API to make AWS do something
+    - [ ] Behind the scenes the three ways described before send commands, API HTTP requests.
+    - [ ] AWS in the end exposes an API (a server) and we can send requests to the AWS API to make AWS do something
+
+- ### AWS Pricing and Cost Management
+    - [ ] AWS offers a variety of pricing and payment models (depending on the actual service used)
+
+    - [ ] On Demand
+        - Most common pricing model
+        - Only pay for the resources used
+        - Which resources and factores are charged depends on the actual services used
         
+    - [ ] In Advance
+        - Some description here
+        
+    - [ ] Subscription
+        - Some description here
         
         
