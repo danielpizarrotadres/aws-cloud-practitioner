@@ -68,14 +68,13 @@
 - ### Accesing and Using AWS Services Summary
     - [ ] Which method of accesing AWS is NOT a valid option?
        - AWS CLI (Yes, i can do it)
-       - AWS Management Console (Yes, i should do it also through the AWS Management Console)
-       - AWS Desktop Client (I'm not sure about this alternative, so i chose this one as the NOT valid option) X
-       - AWS API (Yes, i should could do it)
-    - [ ] Which method of accesing AWS is NOT a valid option?
-       - AWS CLI (Yes, i can do it)
-       - AWS Management Console (Yes, i should do it also through the AWS Management Console)
-       - AWS Desktop Client (I'm not sure about this alternative, so i chose this one as the NOT valid option) ✅
-       - AWS API (Yes, i should could do it)
+       - AWS Management Console (Yes, i can do it)
+       - AWS Desktop Client (This is the correct answer. There is no such thing as a "AWS Desktop Client") ✅
+       - AWS API (Yes, i can do it)
+    - [ ] What do all AWS access methods have in common?
+       - They require programming experience
+       - They send a request to the AWS API ✅
+       - They have nothing in common
 
         
         
