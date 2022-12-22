@@ -57,4 +57,12 @@
     - [ ] Subscription
         - Pay a flat monthly / yearly fee
         
+- ### Cost Management and Working with Budgets
+
+    - [ ] Where to look up pricing information?
+        - Log into the AWS account
+        - Go to "Billing Dashboard"
+
+
+        
         
