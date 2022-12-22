@@ -69,12 +69,28 @@
     - [ ] Which method of accesing AWS is NOT a valid option?
        - AWS CLI (Yes, i can do it)
        - AWS Management Console (Yes, i can do it)
-       - AWS Desktop Client (This is the correct answer. There is no such thing as a "AWS Desktop Client") ✅
+       - AWS Desktop Client ✅ (This is the correct answer. There is no such thing as a "AWS Desktop Client")
        - AWS API (Yes, i can do it)
     - [ ] What do all AWS access methods have in common?
        - They require programming experience
-       - They send a request to the AWS API ✅
+       - They send a request to the AWS API ✅ (Everything's an API call behing the scenes)
        - They have nothing in common
-
+    - [ ] What's NOT true about AWS pricing?
+       - You find service pricing details on the AWS pricing pages (on their website)
+       - All AWS services are free within the first 12 months ✅ (Whilst there is a free tier, only SOME services are part of it. Not ALL services.)
+       - Some services offer a monthly free usage volume
+    - [ ] How can you efficiently control your costs?
+       - Use cost management tools (e.g., cost explorer) and budgets ✅ (The best way of monitoring and controlling cost)
+       - Check your monthly bill at the end of every month
+       - AWS automatically alerts you about unexpected spending, use the cost explorer to dive deeper
+    - [ ] Which statement about cost management is NOT true?
+       - You can set budgets (with alerts) to be notified about excess spendings (This statement is true)
+       - You can use the AWS Cost Protection Tool to set a maximum cost barrier ✅ (There is no AWS Cost Protection Tool and we can't set a fixed, maximum amount of costs)
+       - You can explore basic cost details via daily updated monthly bills
+       - You can explore cost details via Cost Explorer
+    - [ ] What are AWS Support plans all about?
+       - You have to pick a paid plan in order to use AWS for production workloads
+       - You can pick different levels of support, based on your business requirements ✅✅
+       - All support plan levels are paid levels
         
         
