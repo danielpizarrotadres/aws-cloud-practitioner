@@ -64,7 +64,18 @@
         - Go to "Billing Dashboard"
 
     - [ ] Budges
-
+    
+- ### Accesing and Using AWS Services Summary
+    - [ ] Which method of accesing AWS is NOT a valid option?
+       - AWS CLI (Yes, i can do it)
+       - AWS Management Console (Yes, i should do it also through the AWS Management Console)
+       - AWS Desktop Client (I'm not sure about this alternative, so i chose this one as the NOT valid option) X
+       - AWS API (Yes, i should could do it)
+    - [ ] Which method of accesing AWS is NOT a valid option?
+       - AWS CLI (Yes, i can do it)
+       - AWS Management Console (Yes, i should do it also through the AWS Management Console)
+       - AWS Desktop Client (I'm not sure about this alternative, so i chose this one as the NOT valid option) ✅
+       - AWS API (Yes, i should could do it)
 
         
         
