@@ -63,6 +63,8 @@
         - Log into the AWS account
         - Go to "Billing Dashboard"
 
+    - [ ] Budges
+
 
         
         
