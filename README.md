@@ -4,7 +4,7 @@
 
 ### Topics of Study
 
-- [Accesing and Using AWS Services](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Accesing and Using AWS Services](#different-ways-of-accessing-aws)
 - [Account Security, Permissions & The IAM Service (Identity & Access Management)](#data-structures)
 - [Getting Started with Compute Services & EC2](#more-knowledge)
     - [What are remote machines](#binary-search)
@@ -92,5 +92,14 @@
        - You have to pick a paid plan in order to use AWS for production workloads
        - You can pick different levels of support, based on your business requirements ✅✅
        - All support plan levels are paid levels
-        
+      
+### Account Security, Permissions & The IAM Service
+- Being able to acces AWS is of course important but it's super important to do that in a secure way. For that we will take a look at the AWS security model and manage our AWS account and authentiation also for various access methods
+
+- ### AWS Security Model
+    - [ ] Shared Responsability Model
+        - Some text here
+        - Some text here
+        - Some text here
+        - Some text here
         
