@@ -96,10 +96,24 @@
 ### Account Security, Permissions & The IAM Service
 - Being able to acces AWS is of course important but it's super important to do that in a secure way. For that we will take a look at the AWS security model and manage our AWS account and authentiation also for various access methods
 
-- ### AWS Security Model
-    - [ ] Shared Responsability Model
-        - Some text here
-        - Some text here
-        - Some text here
-        - Some text here
+- ### AWS Security Model (Share Responsibility Model)
+    - Security is a shared responsibility by AWS and you.
+    - [ ] AWS
+        - Secure the infrasructure and physical machines
+        - Protect their internal systems and processes
+        - Secure managed services and everything we can't configure or control
+    - [ ] You
+        - Secure your apps and workloads
+        - Protect your account and control account access
+        - Secure everything you are able to control and configure
+       
+- ### Protecting Your Account
+    - [ ] Secure Credential
+    - [ ] Multi-Factor Authentication
+        - Enable MFA
+        - Use a digital or physical solution
+    - [ ] Utilize IAM users (Identity and Access Management)
+        - IAM users are simply users that you can create inside your account, which then can be used for logging into that account (We can create this users instead share password with multiple people)
+        - Create IAM users for accessing your acccount
+        - Every person (e.g. colleague) should use a separate user 
         
