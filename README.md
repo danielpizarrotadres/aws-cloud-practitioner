@@ -115,5 +115,25 @@
     - [ ] Utilize IAM users (Identity and Access Management)
         - IAM users are simply users that you can create inside your account, which then can be used for logging into that account (We can create this users instead share password with multiple people)
         - Create IAM users for accessing your acccount
-        - Every person (e.g. colleague) should use a separate user 
+        - Every person (e.g. colleague) should use a separate user
+        
+- ### What is IAM ?
+    - As mentioned, it stands for Identity and Access Management, and it its for managing identities and access.
+    - [ ] Identities
+        - Identities are siple the entities that can do something in your account, the who so to say, for example
+        - The entity for which access rights / permissions are controlled
+        - Who is allowed (or not allowed) to do something?
+        - Users, User Groups & Roles
+    - [ ] Access Management
+        - The permissons that are granted (or not granted) to an entity
+        - What is an entity allowed to do (with a given service)?
+        - Permissions, managed via Policies
+        - So Permissions, managed via Policies. These are terms you will hear a lot when working with AWS
+        
+- ### Users, User Groups and Roles
+
+        
+    
+        
+
         
