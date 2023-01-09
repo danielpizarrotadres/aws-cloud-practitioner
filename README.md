@@ -131,6 +131,16 @@
         - So Permissions, managed via Policies. These are terms you will hear a lot when working with AWS
         
 - ### Users, User Groups and Roles
+    - [ ] Users
+        - Typically assigned to humans that should be able to access that account
+        - Every person that should be able to access the AWS account gets a user
+    - [ ] User Groups
+        - Group users to share permissions
+        - Avoid unnecessary permission copying or tedious per-user access management
+    - [ ] Roles
+        - A bit more advanced
+        - Typically used by services
+        - The idea here simply is that you often have services that need to work with each other. For example, you could have a service that actually should perform certain taks related to another service. By default, this would not be allowed because, and that's important, by default nothin is allowed in an AWS account. When logging into the account, you can do everything. But when you create an identity like a user or a role, by default that identity is not able to do anything. And if you use a service and runs an application on top of a service and that application wants to interact with another service, by default it would fail. Now if you create such a role and you assign it tothat service on which you are running your application, that role can hold the permissions required by your application sothat your application all of a suddenis able do something with another service, and that's the idea behind roles. 
 
         
     
