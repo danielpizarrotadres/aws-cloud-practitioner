@@ -140,8 +140,33 @@
     - [ ] Roles
         - A bit more advanced
         - Typically used by services
-        - The idea here simply is that you often have services that need to work with each other. For example, you could have a service that actually should perform certain taks related to another service. By default, this would not be allowed because, and that's important, by default nothin is allowed in an AWS account. When logging into the account, you can do everything. But when you create an identity like a user or a role, by default that identity is not able to do anything. And if you use a service and runs an application on top of a service and that application wants to interact with another service, by default it would fail. Now if you create such a role and you assign it tothat service on which you are running your application, that role can hold the permissions required by your application sothat your application all of a suddenis able do something with another service, and that's the idea behind roles. 
+        - The idea here simply is that you often have services that need to work with each other. For example, you could have a service that actually should perform certain taks related to another service. By default, this would not be allowed because, and that's important, by default nothing is allowed in an AWS account. When logging into the account, you can do everything. But when you create an identity like a user or a role, by default that identity is not able to do anything. And if you use a service and runs an application on top of a service and that application wants to interact with another service, by default it would fail. Now if you create such a role and you assign it to that service on which you are running your application, that role can hold the permissions required by your application so that your application all of a suddenis able do something with another service, and that's the idea behind roles. 
 
+- ### Account Security, Permissions & The IAM Service Summary
+    - [ ] Which feature can add an extra layer of protection to your AWS account?
+       - Choosing a unique email address.
+       - Enabling MFA (Multi-Factor Authentication) ✅ (Adding a second factor besides the password, greatly enhances security.)
+       - Restricting unanthenticated users permissions.
+    - [ ] What is a key concept of the Shared Responsibility Model?
+       - Every party is only responsible for things it controls. ✅ (That is the main principle behind this model.)
+       - AWS is only responsible for securing its infrasturcture.
+       - AWS customers are only responsible for protecthing their account.
+    - [ ] What's NOT one of your responsibilities under the Shared Responsibility Model?
+       - Protect access to your AWS account.
+       - Securely set up operating systems used by managed AWS services ✅
+       - Securely set up extra software you install on top of AWS services
+    - [ ] What is the IAM service all about ?
+       - About managing identities (users, user groups, roles) and their permissions. ✅ (That is what the service is all about)
+       - About managing user responsibilities and duties.
+       - About managing identities (users, user groups, roles) and their responsibilities and duties.
+    - [ ] What is the idea behind "Roles"?
+       - Roles are like users: they are assigned to humans and can be used to log into an AWS account.
+       - Roles can be assigned to services which can assume them in order to gain certain permissions. ✅✅ (Roles allow AWS services and the worloads running on top of them to work together.)
+       - Roles can be used to prevent a service from interacting with other services.
+    - [ ] Which statement about IAM permissions is NOT true?
+       - By default, all identities (users, users groups, roles) have no permission to do anything.
+       - AN explicit "Allow" overwrites an explicit "Deny" ✅ An explicit "Deny" overwrites always an explicit "Allow"
+       - If multiple permissions / policies add different permissions, the identity gains the combination of acces rights
         
     
         
