@@ -6,7 +6,7 @@
 
 - [Accesing and Using AWS Services](#different-ways-of-accessing-aws)
 - [Account Security, Permissions & The IAM Service (Identity & Access Management)](#data-structures)
-- [Getting Started with Compute Services & EC2](#more-knowledge)
+- [Getting Started with Compute Services and EC2](#more-knowledge)
     - [What are remote machines](#binary-search)
     - [Some other topic in here](#bitwise-operations)
 - [Managing Cloud Networks via VPCs (Virtual Private Cloud)](#trees)
@@ -167,6 +167,32 @@
        - By default, all identities (users, users groups, roles) have no permission to do anything.
        - AN explicit "Allow" overwrites an explicit "Deny" ✅ An explicit "Deny" overwrites always an explicit "Allow"
        - If multiple permissions / policies add different permissions, the identity gains the combination of acces rights
+       
+### Getting Started with Compute Services and EC2
+
+- Time to live the configuration and security sections, no matter how important they might be. Because in the end you use AWS to run your products applications, or workloads, on top of the AWS. You use AWS because you wanna outsource IT tasks, or build a product on top of AWS.
+
+- We are going to start most diving into one of the most important category of services and one of the most important AWS Service.
+
+
+- ### AWS Compute Services (Compute Category)
+    - [ ] EC2 (Elastic Compute Cloud)
+        - One of the most important and popular services!
+        - Rent a (virtual) remote server / computer. So you can rent one of those machines owned and operate by AWS in its datacenters.
+        - Fully configurable. You can decide wich operatyng system install of top them. You can install any other extra software, you can realyy configure them as if they stand of your room.
+        - Run any kind of workload in the cloud.
+        
+    - [ ] ECS / EKS (Elastic Container Service) / (Elastic Kubernetes Service)
+        - What are "Containers"?
+        - Containers in the end are packages of code + the code's dependencies (e.g, OS, required software). So in the end it is a package that contains everything to run an application, so to say.
+        - Containers allow developers to distribute and deploy reproducible code enviroments (includuing the code itself). This package can be built with extra software like "Docker".
+        - No server configuration required (since the container already includes the operating system, software, configurations etc.)
+        - This are servicices that give you preconfigured environments where you can deploy your containers into, so that you don't need to install this Docker software manually anywhere and configure it, but instead you can use ECS or EKS to have a prefigured environment for you to run your containers in.
+        - What are ECS / EKS concepts about?
+        - An alternative to EC2 - for containerized workloads
+        - Run clusters of containers in the cloud
+        - Managed (with vas amount of configuration options)
+        - Run any kind of containerized workload
         
     
         
