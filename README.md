@@ -194,7 +194,9 @@
         - Managed (with vas amount of configuration options)
         - Run any kind of containerized workload
         
-    
-        
-
-        
+    - [ ] Lambda (Serverless Code Execution)
+        - What are "Serverless" Services?
+        - The idea behind serverless services, like Lambda (note that there are more serverless services like Lambda), simply is that you have some workload which would typically run on top of a server, so on some computer where you set up some software, install an operatyng system and so one, but with serverless services like "Lambda" you can run your code without doing that setup work.
+        - You can run that code without installing or configuring any underlying software, any operating system.
+        - Serverless services allow you can to run code without configuring or controlling any servers.
+        - You can perform tasks in response to events by just providing the code that should be executed.
