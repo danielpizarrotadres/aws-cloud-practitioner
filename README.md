@@ -200,3 +200,9 @@
         - You can run that code without installing or configuring any underlying software, any operating system.
         - Serverless services allow you can to run code without configuring or controlling any servers.
         - You can perform tasks in response to events by just providing the code that should be executed.
+        
+    - [ ] Understanding EC2
+        - Rent a (virtual) remote machine
+        - "A computer in the cloud"
+        - It's actually (typically) not an entire machine. Instead you have those AWS Datacenters  with those physical machines, physical computers inside of them. Those computers are pretty powerful machines. AWS is not putting standard computers in its datacenters. therefore whilst you can technically rent an entire computer if you really want to. Typically you rent a slice of a computer. You rent a "virtual server". To be precise, AWS calls it an EC2 Instance. When using this EC2 Service, you can start EC2 Instances. So you start renting slices off those computers in the AWS data centers.
+        - A slice of the physical machine. Fully isolated from other slices (other EC2 Instances), with its own dedicated hardware which can be used by other instances
