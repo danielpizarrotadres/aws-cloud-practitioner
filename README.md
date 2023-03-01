@@ -4,12 +4,19 @@
 
 ### Topics of Study
 
+- [Getting Started](#getting-started)
 - [Accesing and Using AWS Services](#different-ways-of-accessing-aws)
 - [Account Security, Permissions & The IAM Service (Identity & Access Management)](#data-structures)
 - [Getting Started with Compute Services and EC2](#more-knowledge)
     - [What are remote machines](#binary-search)
     - [Some other topic in here](#bitwise-operations)
 - [Managing Cloud Networks via VPCs (Virtual Private Cloud)](#trees)
+
+### Getting Started
+- Amazon Web Services (AWS) is a subsidiary of Amazon (amazon.com) and it is a Cloud Computing Services Provider
+
+- ### What is "Cloud Computing"
+    - [ ] Cloud Computing is the on-demand delivery of IT resources over the Internet 
 
 ### Accesing and Using AWS Services
 - Nothing to implement here, we just have to sign in into the AWS Services
