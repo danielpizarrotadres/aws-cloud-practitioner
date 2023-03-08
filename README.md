@@ -239,4 +239,16 @@
             - Run one or multiple scripts / commands / programs.
             - It really is like an machine in your office ! just aht it's not in your office.
             - Now once you are done, you can always Stop or terminate whenver you want as you learned.
-            - Advanced options and didfferent pricing models.
+            - Advanced options and different pricing models.
+
+- ### Compute Services and EC2 Summary (Check your knowledge)
+    - [ ] What are "compute services" generally about?
+       - About running containers.
+       - About performing mathematical computations.
+       - About executing code / aplications. ✅
+
+    - [ ] What's the main idea behind AWS Lambda?
+        - Lambda allows you to start virtual servers on which you can install any software.
+        - Lambda allows you to run containers in the cloud.
+        - Lambda allows you to run code / applications in a serverless way. ✅ That's correct. AWS Lambda will also help be explored in greater detail later in this mini-book-
+       - For me: Lambda is a service that allow you run an application without any server configuration (runs it easyly on top of AWS). ✅
