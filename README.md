@@ -216,3 +216,27 @@
         - A slice of the physical machine Fully isolated from other slices (other instances) with its own dedicated hardware.
         - Fully configurable, Choose hardware profile, operating system and install any software (which o.s, which software)
         - Run any kind of application or task on the instance because is fully configurable. In the end you rent a computer which you can configure however you want.
+
+    - [ ] Summary
+        - There are Multiple Compute Service's
+            - ECS / EKS for containerized workloads
+            - Lambda for serverless compute tasks
+            - "Serverless" = You only provide the code, no server configuration
+            - EC2 for fully customizable server configuration (which yoou rent in the end.)
+            - Run any workload / task on EC2
+
+        - EC2 Instances
+            - EC2 allows you to "rent" "slices" of real machines (which you went): Instances
+            - Each instance is fully isolated from other instances with their own hardware dedicated to them.
+            - Instance configuration (AMI, instance type, etc.) is up to you
+            - AMIs define the operating system + base software / config
+            - Control network access via "security group" where you can controlled which kind of network requests should reach this instance. (For example, SSH traffic should be allowed, if HTTP traffic should be allowed, and so on.)
+
+        - Running any kind of Workloads via EC2
+            - Running any kind of workloads on top of them.
+            - Connect to EC2 instance via "ssh" or "EC2 Instance Connect"
+            - This then allows you to run commands to run commands, install software, download code, start a service on that remote machine.
+            - Run one or multiple scripts / commands / programs.
+            - It really is like an machine in your office ! just aht it's not in your office.
+            - Now once you are done, you can always Stop or terminate whenver you want as you learned.
+            - Advanced options and didfferent pricing models.
