@@ -250,5 +250,27 @@
     - [ ] What's the main idea behind AWS Lambda?
         - Lambda allows you to start virtual servers on which you can install any software.
         - Lambda allows you to run containers in the cloud.
-        - Lambda allows you to run code / applications in a serverless way. ✅ That's correct. AWS Lambda will also help be explored in greater detail later in this mini-book-
-       - For me: Lambda is a service that allow you run an application without any server configuration (runs it easyly on top of AWS). ✅
+        - Lambda allows you to run code / applications in a serverless way. ✅ That's correct. AWS Lambda will also help be explored in greater detail later in this mini-book
+       - Remminder for me: Lambda is a service that allow you run an application without any server configuration (runs it easyly on top of AWS). ✅
+       
+    - [ ] What's ECS / EKS about?
+        - These services can be used to run workloads via containers. ✅
+        - These services can be used to start remote virtual servers on which you can run any kind of woekloads.
+        - These services can be used to store large amounts of data (files, etc.).
+
+    - [ ] Which statement about EC2 is NOT true?
+        - EC2 instances are rented virtual servers - slices of real machines. (That's true)
+        - EC2 instance only support Amazon-specific versions of Linux etc. ✅ (That is false because AWS support Ubuntu-specific version of Linux). That's the right choise. Whilst AWS does indeed provide its own Linux distribution (Amazon Linux), it's not the only option
+        - You can install any software and run aky kind of workload on top of EC2 Instance. (That's true)
+        - EC2 instance support Windows, macOS and Linux. (That's true and more i'm not sure)
+        
+    - [ ] What are AMIs (Amazon Machine Images) about?
+        - AMIs define the base operating system, software and configuration of an EC2 instance ✅ 
+        - Before running EC2 Instance you create AMIS that include all required software and application code
+        - AMIs simply define the operating system used by the EC2 instance.
+        - For me: Amazon offers you a mechanism to run server config through pre-built images.
+        
+    - [ ] What is the purpose of instance types?
+        - The instance type of an EC2 instance defines its operating system and base software setup.
+        - The instance type of an EC2 instance defines the workload that should be executed on and instance.
+        - The instance type of an EC2 instance defines its hardware profile and capatibilities. ✅
