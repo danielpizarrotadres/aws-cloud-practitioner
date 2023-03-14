@@ -274,3 +274,11 @@
         - The instance type of an EC2 instance defines its operating system and base software setup.
         - The instance type of an EC2 instance defines the workload that should be executed on and instance.
         - The instance type of an EC2 instance defines its hardware profile and capatibilities. ✅
+
+### Managing Cloud Networks via VPCs (Virtual Private Cloud)
+- In this course section, we are going to build up on top of EC2 and explore how we could work with environments or with accounts where we have multiple EC2 Instances, which maybe should also work together. And for this we are also going to explore another key service and concept called VPC, Virtual Private Cloud, and in this section we are going to understand exactly:
+    - Understanding VPCs
+        - What exactly VPCs are?
+        - Why this concept exists and how you can use VPCs?
+    - Private vs Public Instances
+    - Managing Network Requests inside of your network in the cloud
