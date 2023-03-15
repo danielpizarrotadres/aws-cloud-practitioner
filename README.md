@@ -276,9 +276,23 @@
         - The instance type of an EC2 instance defines its hardware profile and capatibilities. ✅
 
 ### Managing Cloud Networks via VPCs (Virtual Private Cloud)
-- In this course section, we are going to build up on top of EC2 and explore how we could work with environments or with accounts where we have multiple EC2 Instances, which maybe should also work together. And for this we are also going to explore another key service and concept called VPC, Virtual Private Cloud, and in this section we are going to understand exactly:
-    - Understanding VPCs
-        - What exactly VPCs are?
-        - Why this concept exists and how you can use VPCs?
-    - Private vs Public Instances
-    - Managing Network Requests inside of your network in the cloud
+
+- ### Introduction
+
+    - In this course section, we are going to build up on top of EC2 and explore how we could work with environments or with accounts where we have multiple EC2 Instances, which maybe should also work together. And for this we are also going to explore another key service and concept called VPC, Virtual Private Cloud, and in this section we are going to understand exactly:
+        - Understanding VPCs
+            - What exactly VPCs are?
+            - Why this concept exists and how you can use VPCs?
+        - Private vs Public Instances
+        - Managing Network Requests inside of your network in the cloud
+
+- ### Whats The Problem? And How Do VPCc Help?
+    
+    - To understand the idea behind VPC and networks in the cloud, lets start with a simple example and simple setup:
+
+    - Lets say you have an EC2 Instance up and running (it could be a web server as we did in the previous section) And this EC2 instance since it is running a web server that serves a website wil be connected to the internet and it should accept incoming requests and it should be able to send responses.
+But it should probably also be ableto send requests to the internet itself, for example to dowload the web server software and install it when the instance starts up.
+
+    - Also, our setup here is a bit more complex, we don't just have this web server instance, but we have a second instance that runs a database. Probably a database that is used by the first instance (the running web server EC2 Instance). For some incoming HTTP requests, our website, might want to store data in the database or fetch data from the database. So therefore this two instance should be able to comunicate with each other because the applications running on top of them the web server and the database need to be able to communicate.
+    
+    - However, the instance that is running the database probably should not accept incoming requests from the internet (No inbound traffic should be allowed) becase it should only talk tothe web server instance, not to some random person from the internet. No one should be able to send direct requests to our application database. But the instance should still be able to send requests itself. For example, to dowload patches for the database software. 
