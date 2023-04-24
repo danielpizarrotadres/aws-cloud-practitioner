@@ -18,6 +18,12 @@
 - ### What is "Cloud Computing"
     - [ ] Cloud Computing is the on-demand delivery of IT resources over the Internet 
 
+- ### The AWS Infrastructure, Regions and Availability Zones
+    - [ ] AWS operates data centers all over the world
+    - [ ] Regions are not a single data center, a region contains multiple data centers. One region contains multiple data centers.
+    - [ ] The idea behind Regions is that they are physically isolated from each other.
+    - [ ] As mentioned, one region contains multiple data centers. 
+
 ### Accesing and Using AWS Services
 - Nothing to implement here, we just have to sign in into the AWS Services
 
