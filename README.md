@@ -307,6 +307,14 @@ But it should probably also be able to send requests to the internet itself, for
 
     - But for an extra layer of security, you might wanna make sure that you do not just block incoming requests, but that there actually is not a technical connection to the internet at all. And that is what we will talk in this course section, that we are not just blocking incoming requests, but that there is not really a connection through which these requests could be incoming for an extra layer of security. And that is where the Virtual Private  Cloud, the VPC service anf feature can help us.
 
-- ### VPCs and Subnets 
+- ### VPCs and Subnets
+    - VPCs
 
-    - The idea behind the VPC service offered by AWS is that you can build your own virtual network in the cloud. The idea is that you can have multiple instances which you can group into one or more VPCs. 
+        - The idea behind the VPC service offered by AWS is that you can build your own virtual network in the cloud. The idea is that you can have multiple instances which you can group into one or more VPCs. So you can have multiple VPCs and every VPC contains possibly multiple EC2 instances.
+
+        - The idea behind VPC is not just that you group instances together, but that you can also control network settings for those instances on a group level. For example, you can control IP address assignment but most importantly you can control the actual network traffic and whether instances are connected to each other and/or the internet at all.
+
+        - Resources (e.g., EC2 Instances are grouped and organized in a customer-managed network)
+        - IP address assignment and network traffic can be controlled via VPCs
+
+    - Subnets
