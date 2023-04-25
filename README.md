@@ -292,7 +292,7 @@
         - Private vs Public Instances
         - Managing Network Requests inside of your network in the cloud
 
-- ### Whats The Problem? And How Do VPCc Help?
+- ### Whats The Problem? And How Do VPCs Help?
     
     - To understand the idea behind VPC and networks in the cloud, lets start with a simple example and simple setup:
 
