@@ -318,3 +318,8 @@ But it should probably also be able to send requests to the internet itself, for
         - IP address assignment and network traffic can be controlled via VPCs
 
     - Subnets
+
+        - Inside of a VPC, you group your instances into so-called subnets.
+        - And it is the subnets where you can actually control network request settings, or to be precise the connectivity of those subnets
+        - You acutally control network request settings on subnet-level
+        - You can control whether subnets should be private (only internal requests) or public (internet requests are possible) 
